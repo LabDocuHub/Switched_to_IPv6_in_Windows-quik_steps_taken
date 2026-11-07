@@ -1,22 +1,30 @@
 I ran tracert in elevated command prompt
-RTT (Round Trip Time) was 60 - 250 ms for many of the hops
+RTT (Round Trip Time) was 60 - 250 ms for many of the hops   
+
 I checked Control Panel/Network and Sharing Center/View your active networks/ Public network: Access type: Internet/Connections: Ethernet.
-Clicked on Ethernet link
+Clicked on Ethernet link  
+
 Under General/Connection: IPv6 said Disabled.
 Clicked on Properties
 Selected Internet Protocol Version 4 (TCP/IPv4)
-OK
+OK   
+
 On GL-iNet Router I logged into the webpage control panel.
 Selected Network on left column/IPv6
 Toggled switch 'on'
 Selected NAT6 from drop down menu
-Selected 'automatic' for DNS acquisition method from the drop down.
+Selected 'automatic' for DNS acquisition method from the drop down.  
+
 Tested result after clicking on the 'Ethernet' link
-Under General/Connection: IPv6 said Disabled, again.
+Under General/Connection: IPv6 said Disabled, again.  
+
 I Googled and found that not all ISP allow for IPv6 for DNS
-I researched for Spectrum. It was supposed to have it available if using all of there equipment, but I was using Spectrum modem with my own router.
+I researched for Spectrum. It was supposed to have it available if using all of their equipment, but I was using Spectrum modem with my GL-iNet BE6500 router.  
+
 I learned online that Spectrum requires 'Native' mode instead of NAT6.
-Selected 'Native'
+Selected 'Native'  
+
 Tested result after clicking on the 'Ethernet' link
-Under General/Connection: IPv6 said 'Internet', meaning I had IPv6 working for Internet, now.
+Under General/Connection: IPv6 it said 'Internet', meaning I had IPv6 working for Internet, now.  
+
 Successs!
